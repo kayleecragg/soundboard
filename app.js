@@ -32,6 +32,21 @@ function createButton(sound) {
   const btn = document.createElement('button');
   btn.className = 'sound-btn';
 
+  if (sound.icon) {
+    const icon = document.createElement('span');
+    icon.className = 'icon';
+    // Image path (contains a dot suggesting a file extension)
+    if (sound.icon.includes('.')) {
+      const img = document.createElement('img');
+      img.src = sound.icon;
+      img.alt = '';
+      icon.appendChild(img);
+    } else {
+      icon.textContent = sound.icon;
+    }
+    btn.appendChild(icon);
+  }
+
   const label = document.createElement('span');
   label.className = 'label';
   label.textContent = name;
