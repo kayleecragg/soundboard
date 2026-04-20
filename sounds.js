@@ -11,4 +11,5 @@ const SOUNDS = [
   { name: "crickets", file: "sounds/crickets.mp3", icon: "🦗"},
   { name: "claps", file: "sounds/claps.mp3", volume: 2, icon: "👏"},
   { name: "airhorn", file: "sounds/airhorn.mp3" },
+  { name: "FAHH", file: "sounds/fah.mp3" },
 ];
