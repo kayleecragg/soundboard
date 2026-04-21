@@ -10,7 +10,7 @@ const SOUNDS = [
     { name: "sad trombone (womp womp)", file: "sounds/sad_trombone.mp3", icon: "🎺"  },
     { name: "ba dum tss", file: "sounds/badumts.mp3", icon: "🥁" },
     { name: "crickets", file: "sounds/crickets.mp3", icon: "🦗"},
-    { name: "claps", file: "sounds/claps.mp3", volume: 10, icon: "👏"},
+    { name: "claps", file: "sounds/claps.mp3", volume: 12, icon: "👏"},
     { name: "airhorn", file: "sounds/airhorn.mp3", icon: "📢"},
     { name: "boo track", file: "sounds/boo.mp3", icon: "👎"},
     { name: "laugh track", file: "sounds/laugh.mp3", icon: "🤣"},
