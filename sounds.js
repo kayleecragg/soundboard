@@ -6,8 +6,8 @@
 const SOUNDS = [
     { name: "FAHH", file: "sounds/fah.mp3", icon: "💀" },
     { name: "spongebob fail", file: "sounds/spongebob.mp3", icon: "🧽" },
-    { name: "Vine Boom", file: "sounds/vine.mp3", icon: "💣" },
-    { name: "Sad Trombone (Womp womp)", file: "sounds/sad_trombone.mp3", icon: "🎺"  },
+    { name: "vine boom", file: "sounds/vine.mp3", icon: "💣" },
+    { name: "sad trombone (womp womp)", file: "sounds/sad_trombone.mp3", icon: "🎺"  },
     { name: "ba dum tss", file: "sounds/badumts.mp3", icon: "🥁" },
     { name: "crickets", file: "sounds/crickets.mp3", icon: "🦗"},
     { name: "claps", file: "sounds/claps.mp3", volume: 10, icon: "👏"},
