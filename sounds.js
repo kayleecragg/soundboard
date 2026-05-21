@@ -4,7 +4,8 @@
 //   icon   — optional. Use an emoji string ("🔥") or an image path ("images/myicon.png").
 
 const SOUNDS = [
-    { name: "FAHH", file: "sounds/fah.mp3", icon: "💀" },
+    { name: "FAHH", file: "sounds/fah.mp3", volume: 12, icon: "💀" },
+    { name: "sad hamster violin", file: "sounds/sadhamsterviolin.mp3", icon: "🐹" },
     { name: "spongebob fail", file: "sounds/spongebob.mp3", icon: "🧽" },
     { name: "vine boom", file: "sounds/vine.mp3", icon: "💣" },
     { name: "sad trombone (womp womp)", file: "sounds/sad_trombone.mp3", icon: "🎺"  },
